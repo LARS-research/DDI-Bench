@@ -1,0 +1,37 @@
+max_length: 64
+num_labels: 209
+model_type: 'twosides_cls'
+dataset: 'twosides' #
+split_strategy: 'cluster'
+pretrained_model_path: './biogpt'
+info_dict_path: 'data/twosides/two_DDI_GPT.json'
+annotation: 'twosides_finetune-roberta-large'
+drug_name_only: False
+use_zero_shot: True
+use_id : False
+drug_only_max_length: 256
+not_random : False
+checkpoint : './checkpoints/06-12/twosides-old-name-only/checkpoint_epoch4.pt' # TODO
+resume: False
+use_gpu: True
+multi_gpu: False
+deepspeed: False
+gpuid: '0'
+gpu_num: 1
+eval: False
+test: True
+filemode: 'w'
+patience : 5
+num_train_epochs: 100
+max_train_steps: 0
+per_gpu_train_batch_size: 16
+gradient_accumulation_steps: 8
+eval_batch_size: 32
+log_step: 10
+lr_scheduler_type: 'constant' # constant cosine
+fp16: False
+lr: 3.0e-6
+weight_decay: 1.0e-6  # 1.0e-6 #1e-2
+epsilon: 1.0e-8
+vocab_size: 50257
+seed: 4
