@@ -22,10 +22,10 @@ pip install -r DDI_ben/requirements.txt
 ## Running the Code
 ### 1. Dataset
 We provide the dataset in the following folders:
-- `DDI_ben`: [DDI_ben/data](https://github.com/LARS-research/DDI-Bench/DDI_ben/data)
-- `TextDDI`: [TextDDI/data](https://github.com/LARS-research/DDI-Bench/TextDDI/data)
-- `EmerGNN`: [EmerGNN/DrugBank/data](https://github.com/LARS-research/DDI-Bench/EmerGNN/DrugBank/data)
-- `DDI-GPT`: [DDI-GPT/data](https://github.com/LARS-research/DDI-Bench/data)
+- `DDI_ben`: [DDI_ben/data](https://github.com/LARS-research/DDI-Bench/DDI_Ben/DDI_Ben/data)
+- `TextDDI`: [TextDDI/data](https://github.com/LARS-research/DDI-Bench/DDI_Ben/TextDDI/data)
+- `EmerGNN`: [EmerGNN/DrugBank/data](https://github.com/LARS-research/DDI-Bench/DDI_Ben/EmerGNN/DrugBank/data)
+- `DDI-GPT`: [DDI-GPT/data](https://github.com/LARS-research/DDI-Bench/DDI_Ben/DDI-GPT/data)
 
 ### 2. Running Scripts
 First, `cd` into the corresponding directory, i.e., DDI_ben, TextDDI, EmerGNN/Drugbank, EmerGNN/TWOSIDES or SumGNN. After that,
