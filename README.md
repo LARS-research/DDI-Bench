@@ -44,3 +44,15 @@ python drugbank/main_drugbank.py --split_strategy cluster
 
 ## Real Scene
 **Real_scene_drugbank** includes DDI data from DrugBank, where drugs are divided into three sequential training-validation-test sets based on their market approval timeline.
+
+## Citation
+To cite DDI-Ben in publications, please use the following BibTeX entries.
+
+```bibtex
+@article{shen2025benchmarking,
+  title={Benchmarking drug-drug interaction prediction methods: a perspective of distribution changes},
+  author={Shen, Zhenqian and Zhou, Mingyang and Zhang, Yongqi and Yao, Quanming},
+  journal={Bioinformatics},
+  year={2025},
+  publisher={Oxford University Press}
+}
